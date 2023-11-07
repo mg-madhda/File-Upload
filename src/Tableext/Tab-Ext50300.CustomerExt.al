@@ -7,11 +7,6 @@ tableextension 50300 "Customer Ext" extends Customer
             Caption = 'File Upload';
             DataClassification = ToBeClassified;
             Subtype = Bitmap;
-
-            // ObsoleteState = Removed;
-            // ObsoleteTag = '19.0';
         }
     }
-
-
 }

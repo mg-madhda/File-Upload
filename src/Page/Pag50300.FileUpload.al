@@ -93,11 +93,9 @@ page 50300 "File Upload"
         }
     }
     var
-        HideActions: Boolean;
         TempBlob: Codeunit "Temp Blob";
         TempFileName: Text;
         InS: InStream;
         OutS: OutStream;
         FileName: Text;
-
 }

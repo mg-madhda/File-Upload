@@ -24,41 +24,40 @@ pageextension 50300 "Customer Card Ext" extends "Customer Card"
             }
         }
     }
-    // actions
-    // {
-    //     addafter(Contact)
-    //     {
-
-    //         action(Import)
-    //         {
-    //             Caption = 'Import';
-    //             ApplicationArea = All;
-    //             Promoted = true;
-    //             PromotedCategory = Process;
-    //             PromotedIsBig = true;
-    //             PromotedOnly = true;
-    //             trigger OnAction()
-    //             var
-    //                 InS: InStream;
-    //                 OutS: OutStream;
-    //                 FileName: Text;
-    //             begin
-    //                 if UploadIntoStream('Select file', '', '', FileName, InS) then begin
-    //                     TempBlob.CreateOutStream(OutS);
-    //                     CopyStream(OutS, InS);
-    //                     Rec.CalcFields("File Upload");
-    //                     Rec."File Upload".CreateOutStream(OutS);
-    //                     TempBlob.CreateInStream(InS);
-    //                     CopyStream(OutS, InS);
-    //                 end;
-    //             end;
-    //         }
-    //     }
-    // }
-    // var
-    //     TempBlob: Codeunit "Temp Blob";
-    //     TempBlob2: Codeunit "Temp Blob List";
-    //     BLobList: Codeunit "Temp Blob List";
-    //     Persistent: Codeunit "Persistent Blob";
-
 }
+// actions
+// {
+//     addafter(Contact)
+//     {
+
+//         action(Import)
+//         {
+//             Caption = 'Import';
+//             ApplicationArea = All;
+//             Promoted = true;
+//             PromotedCategory = Process;
+//             PromotedIsBig = true;
+//             PromotedOnly = true;
+//             trigger OnAction()
+//             var
+//                 InS: InStream;
+//                 OutS: OutStream;
+//                 FileName: Text;
+//             begin
+//                 if UploadIntoStream('Select file', '', '', FileName, InS) then begin
+//                     TempBlob.CreateOutStream(OutS);
+//                     CopyStream(OutS, InS);
+//                     Rec.CalcFields("File Upload");
+//                     Rec."File Upload".CreateOutStream(OutS);
+//                     TempBlob.CreateInStream(InS);
+//                     CopyStream(OutS, InS);
+//                 end;
+//             end;
+//         }
+//     }
+// }
+// var
+//     TempBlob: Codeunit "Temp Blob";
+//     TempBlob2: Codeunit "Temp Blob List";
+//     BLobList: Codeunit "Temp Blob List";
+//     Persistent: Codeunit "Persistent Blob";
